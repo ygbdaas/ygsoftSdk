@@ -22,14 +22,7 @@ mvn install:install-file -Dfile=dfile -DgroupId=groupid -DartifactId=artifactid 
 初始化YGSOFTClient
 YGSOFTClient ygsoftClient = YGSOFTClient.initClient(certificatefile,privateKeyFile);
 
-### 设置APIKEY：
-```
-ygsoftClient.setApiKey(apiKey);
-```
 
-说明：
-```
-apiKey:通过在apiKey解析出topic
 ygsoftiotpublishSample：初始化ygsoftiot核心类
 certificatefile：证书的本地路径
 privateKeyFile ：私钥的本地路径
